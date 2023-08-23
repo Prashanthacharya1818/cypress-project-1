@@ -26,7 +26,11 @@ describe('login to github', () => {
         cy.wait(3000);
         //cy.contains('first-test.spec.js').click();
         cy.get('.react-directory-commit-message > .Link--secondary').click();
-        cy.get('#actions-tab').click();
+        cy.get('#actions-tab').click(); 
+        cy.get('#projects-tab').click();
+        
+
+
         //cy.get('.position-relative > .form-control').type('cypress.yml');
         
        
