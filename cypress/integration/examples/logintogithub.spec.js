@@ -13,6 +13,7 @@ describe('login to github', () => {
         cy.get('#password').type('Prashanthacharya@1818');
         cy.wait(3000);
         cy.get('.btn').click();
+        cy.wait(3000);
         cy.contains('Show more').click();
         cy.contains('rushireddy143/cypress').click();
         cy.wait(3000);
@@ -29,12 +30,7 @@ describe('login to github', () => {
         cy.get('#actions-tab').click(); 
         cy.get('#projects-tab').click();
         cy.get('#wiki-tab').click();
-        
-
-
         //cy.get('.position-relative > .form-control').type('cypress.yml');
         
-       
-    
-    });        
+       });        
 });
