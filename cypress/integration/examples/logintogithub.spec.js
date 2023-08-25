@@ -29,7 +29,7 @@ describe('login to github', () => {
         cy.get('.react-directory-commit-message > .Link--secondary').click();
         cy.get('#actions-tab').click(); 
         cy.get('#projects-tab').click();
-        cy.get('#wiki-tab').click();
+        //cy.get('#wiki-tab').click();
         //cy.get('.position-relative > .form-control').type('cypress.yml');
         
        });        
