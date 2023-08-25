@@ -53,7 +53,7 @@ context('Actions', () => {
       .should('have.value', 'Clear this text')
       .clear()
       .should('have.value', '')
-  })
+  }) 
 
   it('.submit() - submit a form', () => {
     // https://on.cypress.io/submit
